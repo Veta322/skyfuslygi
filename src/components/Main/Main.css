@@ -1,0 +1,85 @@
+.main {
+  padding: 55px 120px;
+  background: linear-gradient(#2395db 20%, #79e4f0 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 7vh;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.categories__el {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.categories__el_icon {
+  stroke: #cadddd;
+  fill: none;
+  width: 24px;
+}
+
+.categories__el_title {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 15px;
+}
+
+.request{
+    display: flex;
+    flex-direction: row;
+}
+
+.skyf-image {
+  width: 9.2vw;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 266px;
+    height: 81px;
+    align-items: center;
+    gap: .75rem;
+    background: #ffffff30;
+    border-radius: .5rem .5rem .5rem .25rem;
+   
+}
+
+.card__icon{
+    min-width: 1.75rem;
+    max-width: 1.75rem;
+    stroke-width: 1.5px;
+    fill: none;
+    stroke: #fff;
+    
+}
+
+.card__title{
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.card__arrow{
+    width: 20px;
+    height: 20px;
+}

@@ -1,3 +1,5 @@
+
+
 body {
   min-width: 320px;
   min-height: 100vh;
@@ -10,6 +12,9 @@ body {
   -moz-text-size-adjust: 100%;
   align-items: center;
   font-family: Nunito, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
-
+@import url(./normalize.css);
 @import url(./components/Header/Header.css);
+@import url(./components/Main/Main.css);
