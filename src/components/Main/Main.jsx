@@ -301,12 +301,12 @@ function Main() {
             </svg>
           </div>
 
-          <div class="tips">
-            <div>Танки</div>
-            <div>Загранпаспорт</div>
-            <div>Альтушка</div>
-            <div>Пенсия</div>
-            <div>Пособия</div>
+          <div className="tips">
+            <div className="tips__el">Танки</div>
+            <div className="tips__el">Загранпаспорт</div>
+            <div className="tips__el">Альтушка</div>
+            <div className="tips__el">Пенсия</div>
+            <div className="tips__el">Пособия</div>
           </div>
         </div>
       </div>
