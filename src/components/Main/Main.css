@@ -35,51 +35,86 @@
   font-weight: 15px;
 }
 
-.request{
-    display: flex;
-    flex-direction: row;
+.request {
+  display: flex;
+  flex-direction: row;
+  gap: 56px;
 }
 
 .skyf-image {
   width: 9.2vw;
 }
 
-.cards{
-    display: flex;
-    flex-direction: row;
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.card{
-    display: flex;
-    flex-direction: row;
-    width: 266px;
-    height: 81px;
-    align-items: center;
-    gap: .75rem;
-    background: #ffffff30;
-    border-radius: .5rem .5rem .5rem .25rem;
-   
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
 }
 
-.card__icon{
-    min-width: 1.75rem;
-    max-width: 1.75rem;
-    stroke-width: 1.5px;
-    fill: none;
-    stroke: #fff;
-    
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 266px;
+  height: 81px;
+  align-items: center;
+  gap: 0.75rem;
+  background: #ffffff30;
+  border-radius: 8px 8px 8px 4px;
+  padding: 0 13px;
+  justify-content: space-evenly;
 }
 
-.card__title{
-    color: #fff;
-    font-size: 16px;
-    margin: 0;
-    font-weight: 500;
-    font-optical-sizing: auto;
-    font-style: normal;
+.card__icon {
+  min-width: 1.75rem;
+  max-width: 1.75rem;
+  stroke-width: 1.5px;
+  fill: none;
+  stroke: #fff;
 }
 
-.card__arrow{
-    width: 20px;
-    height: 20px;
+.card__title {
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 500;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.card__arrow {
+  width: 20px;
+  height: 20px;
+}
+
+.input__box {
+  width: 100%;
+  padding: 0.75rem 0 0.75rem 0.75rem;
+  position: relative;
+  font-size: 1.2rem;
+  color: #061c31;
+  background: #fff;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  pointer-events: visible;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  outline: none;
+  border: none;
+  width: 95%;
+}
+
+.input__icon {
+  stroke: #0f6ab0;
+  fill: none;
+  width: 24px;
 }
