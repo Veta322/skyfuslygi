@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.header__left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__nav {
+  flex-direction: row;
+  display: flex;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+.logo__blue {
+  margin: 0;
+  color: #0f6ab0;
+}
+
+.logo__red {
+  color: #f23d7e;
+  margin: 0;
+}
+
+.header__skyf {
+  margin: 0;
+  color: #0f6ab0;
+  font-weight: 500;
+}
+
+.header__skyf_icon {
+  stroke: #0f6ab0;
+  width: 16px;
+  fill: none;
+}
+
+.header__nav {
+  display: flex;
+  gap: 24px;
+}
+
+.header__nav_el {
+  margin: 0;
+  color: #0f6ab0;
+  font-weight: 500;
+}
+
+.header__nav_search {
+  stroke: #0f6ab0;
+  fill: none;
+  width: 20px;
+}
