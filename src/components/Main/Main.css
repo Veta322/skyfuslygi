@@ -8,35 +8,10 @@
   --mask: radial-gradient(142.77px at 50% calc(100% - 168px), #000 99%, #0000 101%) calc(50% - 56px) 0/112px 100%, radial-gradient(142.77px at 50% calc(100% + 140px), #0000 99%, #000 101%) 50% calc(100% - 28px)/112px 100% repeat-x;
     -webkit-mask: var(--mask);
     mask: var(--mask);
+    width: 100%;
+    align-items: center;
 }
 
-.categories {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 16px;
-  align-items: start;
-}
-
-.categories__el {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.categories__el_icon {
-  stroke: #cadddd;
-  fill: none;
-  width: 24px;
-}
-
-.categories__el_title {
-  margin: 0;
-  color: #fff;
-  text-align: center;
-  cursor: pointer;
-  font-weight: 15px;
-}
 
 .request {
   display: flex;
@@ -135,4 +110,5 @@
     background: linear-gradient(270deg, #61b8f3 0, #40a9ea 100%);
     border-radius: 0 5rem 5rem;
     cursor: pointer;
+    text-decoration: none;
 }

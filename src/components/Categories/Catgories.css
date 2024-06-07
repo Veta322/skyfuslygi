@@ -1,0 +1,34 @@
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 16px;
+    align-items: start;
+    background:#2395db;
+    display: flex;
+    padding: 55px 120px 20px;
+    align-self: center;
+  }
+  
+  .categories__el {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+  }
+  
+  .categories__el_icon {
+    stroke: #cadddd;
+    fill: none;
+    width: 24px;
+  }
+  
+  .categories__el_title {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 15px;
+  }

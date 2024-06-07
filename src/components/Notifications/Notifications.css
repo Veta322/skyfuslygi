@@ -22,14 +22,17 @@
 
 .notif__el:nth-child(1n) {
   border-radius: 16px 16px 0 0;
+  border-bottom: none;
 }
 
 .notif__el:nth-child(2n) {
   border-radius: 0;
+  border-bottom: none;
 }
 
 .notif__el:nth-child(3n) {
   border-radius: 0 0 16px 16px;
+  border-bottom: 2px solid gray;
 }
 
 .notif__el_image {
@@ -63,4 +66,12 @@
 .right__el_icon{
     width: 100px;
     height: 100px;
+}
+
+.notif__el_type{
+  color: #f23d7e;
+}
+
+.notif__el_status{
+  color: #0f6ab0;
 }
