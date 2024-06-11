@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <header className="header">
         <div className="header__left"> 
-      <div className="logo">
+      <Link to="/" className="logo" >
         <p className="logo__blue">СКУФ</p><p className="logo__red">УСЛУГИ</p>
-      </div>
+      </Link>
       <div className="header__skyf">Скуфам </div>
       <svg class="header__skyf_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="6 9 12 15 18 9"></polyline>

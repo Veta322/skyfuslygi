@@ -1,17 +1,23 @@
 .main {
-  padding: 55px 120px 180px;
+  padding: 55px 0 180px;
   background: linear-gradient(#2395db 20%, #79e4f0 100%);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 7vh;
-  --mask: radial-gradient(142.77px at 50% calc(100% - 168px), #000 99%, #0000 101%) calc(50% - 56px) 0/112px 100%, radial-gradient(142.77px at 50% calc(100% + 140px), #0000 99%, #000 101%) 50% calc(100% - 28px)/112px 100% repeat-x;
-    -webkit-mask: var(--mask);
-    mask: var(--mask);
-    width: 100%;
-    align-items: center;
+  --mask: radial-gradient(
+        142.77px at 50% calc(100% - 168px),
+        #000 99%,
+        #0000 101%
+      )
+      calc(50% - 56px) 0/112px 100%,
+    radial-gradient(142.77px at 50% calc(100% + 140px), #0000 99%, #000 101%)
+      50% calc(100% - 28px) / 112px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  width: 100%;
+  align-items: center;
 }
-
 
 .request {
   display: flex;
@@ -97,18 +103,18 @@
   width: 24px;
 }
 
-.tips{
+.tips {
   display: flex;
   justify-content: start;
   gap: 8px;
 }
 
-.tips__el{
-  padding: .5rem .75rem;
-    color: #fff;
-    font-size: .8rem;
-    background: linear-gradient(270deg, #61b8f3 0, #40a9ea 100%);
-    border-radius: 0 5rem 5rem;
-    cursor: pointer;
-    text-decoration: none;
+.tips__el {
+  padding: 0.5rem 0.75rem;
+  color: #fff;
+  font-size: 0.8rem;
+  background: linear-gradient(270deg, #61b8f3 0, #40a9ea 100%);
+  border-radius: 0 5rem 5rem;
+  cursor: pointer;
+  text-decoration: none;
 }
